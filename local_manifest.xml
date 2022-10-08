@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ <remote  name="snow"
+           fetch="https://github.com/SnowyProject/" />
+  <remote  name="snow2"
+           fetch="https://github.com/ThankYouYuuri/" />
+ <!-- Trees -->
+  <project path="device/google/taimen"  name="android_device_google_taimen" remote="snow" revision="arrow-13.0" clone-depth="1"/>
+  <project path="device/google/wahoo"  name="android_device_google_wahoo" remote="snow"  revision="arrow-13.0" clone-depth="1"/>
+  <project path="vendor/google/taimen"  name="proprietary_vendor_google_taimen" remote="snow2" revision="arrow-13.0" clone-depth="1"/>
+  <project path="kernel/google/wahoo" name="android_kernel_google_wahoo" remote="snow" revision="arrow-13.0" clone-depth="1"/>
+  
+</manifest>
